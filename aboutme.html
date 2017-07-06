@@ -15,45 +15,68 @@
 		position: relative;
 		text-align: center;
 		top: 20%;
+		margin-top: 25px;
+    margin-bottom: 25px;
+    /*margin-right: 150px;*/
+    /*margin-left: 80px;*/
 	}
-	h2 {
+	/*h2 {
 		color: #4A96AD;
 		font-family: 'Dancing Script';font-size: 30px;
 	}
 	p {
-		font-family: 'Acme';font-size: 18px;
+		font-family: 'Acme';font-size: 18px;*/
+	/*}*/
+.container{
+	text-align: center;
+	width: auto;
+	margin: 0;
+	background-color: #4A96AD;
+}
+	ul { /*below is the menu*/
+    list-style-type: none;
+		display: inline-block;
+		text-align: center;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #4A96AD;
+    /*text-align: left;*/
+    position: relative;
 	}
-			
+	li {
+    float: left;
+		/*text-align: center;*/
+	}
+
+	li a {
+		display: block;
+    color: #8a1926;
+    text-align: center;
+    padding: 16px 20px;
+    text-decoration: none;
+		font-family: 'Acme';font-size: 25px;
+	}
+
+	li a:hover {
+    background-color: #a6cdd9;
+		text-align: left;
+	}
+
 </style>
 </head>
 <body>
-	<div> 
-	  <h1>Karla G. Ramos</h1>
-	</div>
-  <ul>
-	  <li>
-		  <h2>About Me</h2>
-		  <p>I am from El Paso, TX and will be a Senior in high school this coming August. I am a hard-working, active, and passionate young girl. I am very involved in my school and my community. I am hoping to pursue a career in International Business and Computer Science. This summer I am attending a summer immersion program with Girls Who Code at Pivotal, a software company. I am learning how to code, use HTML, and Python. </p>
-	  </li>
-	  <li>
-		  <h2>Portfolio</h2>
-		  <p>Recent Projects: </p>
-		  <p>One of my most recent projects was on scratch. It is a shape drawer, the cat icon asks you how many sides you would like your shape to have and once you input the number it will draw a shape for you.</p> 
-		  <img src="scratchShape.png" style="width:400px; height:200px;">
-		  <p><a href = "https://scratch.mit.edu/projects/166737889/">click here to play game</a></p>
-	  </li>
-	  <li>
-		  <h2>Fun Facts</h2>
-		  <p>Some of my favorite thigs to do include yoga, hiking, taking pictures, and cooking. I try to stay as active as I can which is why one of the reasons I enjoy yoga and hiking, not only are they a form of excercise but it is a way for me to unwind and enjoy myself. I have always had a passion for taking pictures and have recently started taking pictures as a hobby. My passion for cooking is not only because I love to eat but I love being in the kitchen and creating new things, it is sort of a science lab for me where I can experiement with many ingredients and create new foods. </p>
-	  </li>
-	  <li>
-		  <h2>Photography</h2>
-		  <p>Portfolio of Pictures</p>
-	  </li>
-	  <li>
-		  <h2>Contact Me</h2>
-		  <p>email and phone number</p>
-	  </li>
-	</ul>
+		<div>
+	  		<h1>Karla G. Ramos</h1>
+		</div>
+	<div class='container'>
+		<ul id="menu">
+  			<li><a href="#aboutme.html">Home</a></li>
+  			<li><a href="#Bio.html">Bio</a></li>
+  			<li><a href="#Portfolio.html">Portfolio</a></li>
+  			<li><a href="#Fun_Facts.html">Fun Facts</a></li>
+			<li><a href="#Contact_Me.html">Contact Me</a></li>
+		 </ul>
+
 </body>
 </html>
